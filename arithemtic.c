@@ -8,11 +8,13 @@ int main()
     printf("----------------------------------------\n");
 
     int a, b;
+    float res;
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
     printf("\nSum = %d\n",a+b);
     printf("Differance = %d\n",a-b);
     printf("Product = %d\n",a*b);
-    printf("Quotient = %d\n",a/b);
+    res = a/b;
+    printf("Quotient = %d\n",res);
     return 0;
 }
