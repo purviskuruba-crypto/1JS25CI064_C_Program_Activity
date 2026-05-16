@@ -7,13 +7,12 @@ int main()
     printf("Program: Simple Arithemetic Operatins\n");
     printf("----------------------------------------\n");
 
-    int a, b;
-    float res;
+    float a, b,res;
     printf("Enter two numbers: ");
-    scanf("%d %d", &a, &b);
-    printf("\nSum = %d\n",a+b);
-    printf("Differance = %d\n",a-b);
-    printf("Product = %d\n",a*b);
+    scanf("%f %f", &a, &b);
+    printf("\nSum = %f\n",a+b);
+    printf("Differance = %f\n",a-b);
+    printf("Product = %f\n",a*b);
     res = a/b;
     printf("Quotient = %f\n",res);
     return 0;
