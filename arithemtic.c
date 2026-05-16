@@ -15,6 +15,6 @@ int main()
     printf("Differance = %d\n",a-b);
     printf("Product = %d\n",a*b);
     res = a/b;
-    printf("Quotient = %d\n",res);
+    printf("Quotient = %f\n",res);
     return 0;
 }
