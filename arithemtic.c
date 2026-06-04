@@ -13,6 +13,6 @@ int main()
     printf("\nSum = %f\n",a+b);
     printf("Differance = %f\n",a-b);
     printf("Product = %f\n",a*b);
-    printf("Quotient = %f\n",res);
+    printf("Quotient = %f\n",a/b);
     return 0;
 }
